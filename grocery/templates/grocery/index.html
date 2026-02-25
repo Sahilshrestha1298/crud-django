@@ -17,6 +17,21 @@
 
   <body>
     <section class="section-center">
+      
+      <!-- Form -->
+      <form>
+        <h2>grocery bud</h2>
+        <div class="form-control">
+          <input
+            type="text"
+            class="form-input"
+            placeholder="e.g. eggs"
+          />
+          <button type="submit" class="btn">add item</button>
+        </div>
+      </form>
+
+      <!-- Items List -->
       <div class="items">
         {% for item in items %}
         <div class="single-item">
@@ -60,6 +75,7 @@
         </p>
         {% endfor %}
       </div>
+
     </section>
   </body>
 </html>
